@@ -1,1 +1,21 @@
 // Specific CSS for your home-page
+.container-slider {
+  height: 100vh;
+  width: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.slider:nth-child(1){background: #F8ECD1;}
+.slider:nth-child(2){background: #85586F;}
+.slider:nth-child(3){background: #B8B5FF;}
+.slider:nth-child(4){background: #B7D3DF;}
+.slider:nth-child(5){background: #D800A6;}
