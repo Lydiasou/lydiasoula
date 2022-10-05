@@ -23,19 +23,28 @@
 /////////////////////////////////////////  Slide 1 ////////////////////////////////////////
 
 .text-title {
-  margin: 50px;
-  margin-bottom: 400px;
-  text-align: justify;
-  width: 50%;
+  margin-top: 90px;
+    h1 {
+      font-family: 'Newsreader', serif;
+      font-size: 56px;
+    }
+    p {
+      font-size: 14px;
+    }
 }
 
 .img-avatar {
-  width: 50%;
+  //width: 50%;
+  margin-left: 224px;
+
 }
 
 .img-profile {
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
+  width:480px;
+  height:350px;
   object-fit: cover;
+}
+
+.text-presentation {
+
 }
