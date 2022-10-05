@@ -24,9 +24,15 @@
 
 .text-title {
   margin: 50px;
-  margin-bottom: 400px;
-  text-align: justify;
-  width: 50%;
+  margin-left: -130%;
+
+    h1 {
+      font-family: 'Newsreader', serif;
+      font-size: 56px;
+    }
+    p {
+      font-size: 14px;
+    }
 }
 
 .img-avatar {
