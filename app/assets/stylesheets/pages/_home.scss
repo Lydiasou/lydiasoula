@@ -14,8 +14,20 @@
   scroll-snap-align: center;
 }
 
-.slider:nth-child(1){background: #F8ECD1;}
+.slider:nth-child(1){background: white;}
 .slider:nth-child(2){background: #85586F;}
 .slider:nth-child(3){background: #B8B5FF;}
 .slider:nth-child(4){background: #B7D3DF;}
 .slider:nth-child(5){background: #D800A6;}
+
+/////////////////////////////////////////  Slide 1 ////////////////////////////////////////
+
+.text-title {
+  flex: 1;
+  width: 50%;
+}
+
+.img-avatar {
+  flex: 2;
+  width: 50%;
+}
