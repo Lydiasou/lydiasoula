@@ -14,8 +14,28 @@
   scroll-snap-align: center;
 }
 
-.slider:nth-child(1){background: #F8ECD1;}
+.slider:nth-child(1){background: white;}
 .slider:nth-child(2){background: #85586F;}
 .slider:nth-child(3){background: #B8B5FF;}
 .slider:nth-child(4){background: #B7D3DF;}
 .slider:nth-child(5){background: #D800A6;}
+
+/////////////////////////////////////////  Slide 1 ////////////////////////////////////////
+
+.text-title {
+  margin: 50px;
+  margin-bottom: 400px;
+  text-align: justify;
+  width: 50%;
+}
+
+.img-avatar {
+  width: 50%;
+}
+
+.img-profile {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
