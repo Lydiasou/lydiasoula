@@ -23,12 +23,19 @@
 /////////////////////////////////////////  Slide 1 ////////////////////////////////////////
 
 .text-title {
-  padding: 5px;
   margin: 50px;
+  margin-bottom: 400px;
   text-align: justify;
-  flex: 1;
+  width: 50%;
 }
 
 .img-avatar {
-  flex: 2;
+  width: 50%;
+}
+
+.img-profile {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }
