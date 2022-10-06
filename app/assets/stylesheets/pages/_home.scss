@@ -8,14 +8,44 @@
 
 .slider {
   background-color:#efe4df ;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
   height: 100vh;
   scroll-snap-align: center;
 }
 
 //.slider:nth-child(1){background: white;}
 
-
 /////////////////////////////////////////  Slide 1 ////////////////////////////////////////
+.first-title {
+  position: relative;
+  top: 40%;
+  left: 10%;
+  h1 {
+    font-family: 'Newsreader', serif;
+    font-size: 90px;
+  }
+}
+
+.second-title {
+  position: relative;
+  top: 36%;
+  left: 30%;
+  h1 {
+    font-family: 'Newsreader', serif;
+    font-size: 90px;
+  }
+}
+
+.name {
+  position: relative;
+  top: 30%;
+  left: 75%;
+  margin-top: 25px;
+  p {
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: .2rem;
+  }
+}
