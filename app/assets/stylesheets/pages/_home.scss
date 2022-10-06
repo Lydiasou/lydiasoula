@@ -49,3 +49,38 @@
     letter-spacing: .2rem;
   }
 }
+/////////////////////////////////////////  Slide 2 ////////////////////////////////////////
+.paragraphe-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  position: relative;
+  bottom: 100px;
+  //margin-top: 15%;
+
+}
+
+.row {
+
+  width: 30%;
+  height: 300px;
+  padding: 20px;
+  margin: 5px;
+  margin-top: 15%;
+    p {
+      text-align: justify;
+      font-size: 14px;
+    }
+}
+
+.slider-two-title {
+  height: 50%;
+  padding-top: 20%;
+  padding-left: 40px;
+  //margin-top: 10px;
+  h1 {
+    font-family: 'Newsreader', serif;
+    font-size: 90px;
+  }
+}
