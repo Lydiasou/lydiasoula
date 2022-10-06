@@ -7,6 +7,7 @@
 }
 
 .slider {
+  background-color:#efe4df ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,37 +15,7 @@
   scroll-snap-align: center;
 }
 
-.slider:nth-child(1){background: white;}
-.slider:nth-child(2){background: #85586F;}
-.slider:nth-child(3){background: #B8B5FF;}
-.slider:nth-child(4){background: #B7D3DF;}
-.slider:nth-child(5){background: #D800A6;}
+//.slider:nth-child(1){background: white;}
+
 
 /////////////////////////////////////////  Slide 1 ////////////////////////////////////////
-
-.text-title {
-  margin-top: 90px;
-    h1 {
-      font-family: 'Newsreader', serif;
-      font-size: 56px;
-    }
-    p {
-      font-size: 14px;
-    }
-}
-
-.img-avatar {
-  //width: 50%;
-  margin-left: 224px;
-
-}
-
-.img-profile {
-  width:480px;
-  height:350px;
-  object-fit: cover;
-}
-
-.text-presentation {
-
-}
