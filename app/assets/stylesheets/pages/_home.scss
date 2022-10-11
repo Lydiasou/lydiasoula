@@ -84,3 +84,60 @@
     font-size: 90px;
   }
 }
+
+/////////////////////////////////////////  Slide 3 & 4  ////////////////////////////////////////
+.portfolio-title {
+  height: 35%;
+  padding-top: 10%;
+  padding-left: 40px;
+  h1 {
+    font-family: 'Newsreader', serif;
+    font-size: 90px;
+  }
+}
+
+.project-description {
+  padding-left:40px;
+  padding-right: 200px;
+    p {
+      font-size: 14px;
+      text-align: justify;
+    }
+}
+
+.button {
+  position: relative;
+  left: 75%;
+  top: 30%;
+}
+
+/////////////////////////////////////////  Slide 5 ////////////////////////////////////////
+.apropos-text {
+  width: 40%;
+  height: 70%;
+  padding-left:100px;
+  //padding-right: 200px;
+    p {
+      font-size: 14px;
+      text-align: justify;
+    }
+}
+
+.image-profil {
+  //border-radius: 50%;
+  width: 350px;
+  height: 290px;
+  object-fit: cover;
+  //margin-left: 10%;
+  //margin-bottom: 50%;
+}
+
+.pictures{
+  margin-left: 15%;
+}
+
+.apropos-flexbox {
+  display: flex;
+  margin-top: 7%;
+
+}
