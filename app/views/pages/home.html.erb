@@ -84,8 +84,63 @@
       </div>
     </div>
   </div>
+<!-- Form  -->
+  <div class="slider">
+    <div class="portfolio-title">
+      <h1>Demande de devis</h1>
+    </div>
+    <div class="box-form">
+      <form action="https://formsubmit.co/lydiasoula@outlook.com" method="POST">
+        <div class="">
+          <label for="name" class="label-margin">Ton nom et/ou prénom</label>
+          <input class="input-box" type="text" name="name" placeholder="Mark Zuckenberg" required>
+        </div>
+        <div class="">
+          <label for="email" class="label-margin">Ton adresse e-mail</label>
+          <input class="input-box" type="email" name="email" placeholder= "marcky@fb.com" required>
+        </div>
+        <div class="">
+          <label for="societe"class="label-margin" >Le nom de ta société, organisation ect</label>
+          <input class="input-box" type="societe " name="societe" placeholder="Facebook">
+        </div>
+        <div class="">
+          <label for="subject"class="label-margin" >Dit moi en plus sur ton projet !</label>
+          <input class="input-box" type="subject" name="subject" placeholder="Automatisation de mes messages messenger dans le cadre..." required>
+        </div>
+        <button type="submit" class="btn-form">A très vite</button>
+      </form>
+    </div>
+  </div>
 <!-- Contact  -->
   <div class="slider">
-    <h2>slide</h2>
+    <div class="portfolio-title">
+      <h1>Contact</h1>
+    </div>
+    <div class="number-git d-flex">
+      <div class="number">
+        <i class="ti ti-phone-call"></i> 07 60 04 40 85
+      </div>
+      <div class="git">
+        <i class="ti ti-brand-github"></i>
+        <%= link_to 'https://github.com/Lydiasou', target: :_blank do %>
+          Lydiasou/git
+        <% end %>
+      </div>
+    </div>
+    <div class="mail-link d-flex">
+      <div class="mail">
+        <i class="ti ti-at"></i>
+        <%= mail_to "lydiasoula@outlook.com", target: 'blank' %>
+      </div>
+      <div class="link">
+        <i class="ti ti-brand-linkedin"></i>
+        <%= link_to 'https://www.linkedin.com/in/lydiasoula/', target: :_blank  do %>
+          Lydiasoula/linkedin
+        <% end %>
+      </div>
+    </div>
+    <div class="row-bye">
+      <h1>Bye ! </h1>
+    </div>
   </div>
 </div>
